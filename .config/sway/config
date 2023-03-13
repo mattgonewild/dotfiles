@@ -85,6 +85,8 @@ input type:touchpad {
     tap_button_map lrm
 }
 
+input "1386:21263:Wacom_HID_530F_Finger" map_to_output $d_secondary
+
 ### Key bindings
 #
 # Basics:
@@ -162,6 +164,15 @@ input type:touchpad {
     # Note: workspaces can have any name you want, not just numbers.
     # We just use 1-10 as the default.
 
+workspace 1 output $d_main
+workspace 2 output $d_main
+workspace 3 output $d_main
+workspace 4 output $d_main
+workspace 5 output $d_main
+workspace 6 output $d_main
+workspace 7 output $d_main
+workspace 8 output $d_secondary
+workspace 9 output $d_secondary
 workspace 10 output $d_secondary
 
 #
