@@ -202,7 +202,7 @@ workspace 8 output $d_secondary
 workspace 9 output $d_secondary
 workspace 10 output $d_secondary
 
-for_window [title="Waydroid"] move window to workspace number 10; border none; fullscreen enable
+for_window [app_id="Waydroid"] move window to workspace number 10; border none; fullscreen enable
 
 #
 # Layout stuff:
