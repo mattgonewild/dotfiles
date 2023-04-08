@@ -26,6 +26,9 @@ fi
 
 unset rc
 
+# umask
+umask 027
+
 # bash history related
 # TODO: read more about this
 export HISTFILE=".bash_history_alt"
