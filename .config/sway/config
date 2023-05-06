@@ -109,7 +109,8 @@ input type:touchpad {
     pointer_accel 0.65
 }
 
-input "1386:21263:Wacom_HID_530F_Finger" map_to_output $d_main
+# map_to_output $d_main
+input "1386:21263:Wacom_HID_530F_Finger" events disabled
 
 ### Key bindings
 #
