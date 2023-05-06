@@ -29,6 +29,8 @@ unset rc
 # umask
 umask 027
 
+export EDITOR="/usr/bin/vim"
+
 # bash history related
 # TODO: read more about this
 export HISTFILE=".bash_history_alt"
