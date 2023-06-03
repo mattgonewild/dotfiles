@@ -48,3 +48,5 @@ export CHROME_EXECUTABLE="/usr/bin/chromium-browser"
 # Carbonyl
 export PATH="$PATH:`pwd`/carbonyl/bin/latest"
 
+# TODO: temp, because I'm pretty sure I got too hasty with cut.
+alias rm="mv --target-directory=/home/mwalker/trash --backup"
